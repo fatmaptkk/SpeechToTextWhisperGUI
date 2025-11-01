@@ -1,0 +1,37 @@
+# build çıktıları
+bin/
+obj/
+
+# VS geçici dosyaları
+.vs/
+*.user
+*.suo
+*.userosscache
+*.userprefs
+
+# temp ses dosyaları
+*.wav
+*.mp3
+record_*.wav
+*.tmp
+
+# NuGet paket klasörleri
+packages/
+*.nupkg
+
+# Debug / Release klasörleri
+Debug/
+Release/
+x64/
+x86/
+
+# loglar
+*.log
+*.bak
+*.cache
+# whisper model dosyalarını dahil etme
+*.bin
+*.bin
+SpeechToTextWhisperGUI/ggml-small.bin
+*.bin
+
